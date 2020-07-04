@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>552</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>新建</string>
+    </property>
+    <addaction name="actionnew"/>
+    <addaction name="actionopen"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionnew"/>
+   <addaction name="actionopen"/>
+   <addaction name="actionproblem"/>
+   <addaction name="actioninformation"/>
+   <addaction name="actionwarming"/>
+   <addaction name="actionerror"/>
+   <addaction name="actionfont"/>
+   <addaction name="actioncolor"/>
+   <addaction name="actionfile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionnew">
+   <property name="text">
+    <string>新建</string>
+   </property>
+  </action>
+  <action name="actionopen">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionproblem">
+   <property name="text">
+    <string>问题</string>
+   </property>
+  </action>
+  <action name="actioninformation">
+   <property name="text">
+    <string>信息</string>
+   </property>
+  </action>
+  <action name="actionwarming">
+   <property name="text">
+    <string>警告</string>
+   </property>
+  </action>
+  <action name="actionerror">
+   <property name="text">
+    <string>错误</string>
+   </property>
+  </action>
+  <action name="actionfile">
+   <property name="text">
+    <string>文件</string>
+   </property>
+  </action>
+  <action name="actionfont">
+   <property name="text">
+    <string>字体</string>
+   </property>
+  </action>
+  <action name="actioncolor">
+   <property name="text">
+    <string>颜色</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
